@@ -1,0 +1,14 @@
+.heading {
+  text-align: end;
+  width: 50vw;
+  margin: auto;
+  line-height: 4px;
+  padding-top: 20px;
+}
+
+.heading p {
+  font-size: 8px;
+  font-family: Metropolis;
+  color: gray;
+}
+/*# sourceMappingURL=heading.css.map */

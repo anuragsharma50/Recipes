@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: rgb(228, 225, 225);
+  background-image: url('./Assets/Images/Illustration1.png') , url('./Assets/Images/Illustration2.png') ,
+  url('./Assets/Images/Illustration3.png') , url('./Assets/Images/Illustration4.png') 
+  ,url('./Assets/Images/Illustration5.png');
+
+  background-position: -20px 540px,86vw -50px,12vw center,right bottom,90vw 540px;
+  background-size: 200px,200px,200px,100px,30px;
+  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+  background-attachment: fixed;
+}
+
+.cards {
+  width: 54vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  text-decoration: none;
+  padding-bottom: 148px;
+}
+
